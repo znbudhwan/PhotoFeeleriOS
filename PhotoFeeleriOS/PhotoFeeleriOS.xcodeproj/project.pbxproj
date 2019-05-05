@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DA343909E4576B197FA7248 /* Pods_PhotoFeeleriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC55218F302846FF03850361 /* Pods_PhotoFeeleriOS.framework */; };
+		BFF38E89227BE62D0011B9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38E88227BE62D0011B9B8 /* AppDelegate.swift */; };
+		BFF38E8B227BE62D0011B9B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38E8A227BE62D0011B9B8 /* HomeViewController.swift */; };
+		BFF38E90227BE6300011B9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF38E8F227BE6300011B9B8 /* Assets.xcassets */; };
+		BFF38E93227BE6300011B9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF38E91227BE6300011B9B8 /* LaunchScreen.storyboard */; };
+		BFF38E9E227BEB230011B9B8 /* PhotoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38E9D227BEB230011B9B8 /* PhotoTest.swift */; };
+		BFF38EA0227BEB500011B9B8 /* BusinessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38E9F227BEB500011B9B8 /* BusinessTest.swift */; };
+		BFF38EA2227BEB5B0011B9B8 /* SocialTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EA1227BEB5B0011B9B8 /* SocialTest.swift */; };
+		BFF38EA4227BEB6B0011B9B8 /* DatingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EA3227BEB6B0011B9B8 /* DatingTest.swift */; };
+		BFF38EA6227BEB780011B9B8 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EA5227BEB780011B9B8 /* Test.swift */; };
+		BFF38EA8227BEB820011B9B8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EA7227BEB820011B9B8 /* User.swift */; };
+		BFF38EAA227BEBBB0011B9B8 /* Karma.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EA9227BEBBB0011B9B8 /* Karma.swift */; };
+		BFF38EAC227BEC120011B9B8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EAB227BEC120011B9B8 /* Category.swift */; };
+		BFF38EAE227BEC420011B9B8 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EAD227BEC420011B9B8 /* Status.swift */; };
+		BFF38EB0227BED3D0011B9B8 /* Quality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EAF227BED3D0011B9B8 /* Quality.swift */; };
+		BFF38EB2227BF61B0011B9B8 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EB1227BF61B0011B9B8 /* Option.swift */; };
+		BFF38EB7227CE9F00011B9B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF38EB6227CE9F00011B9B8 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21F24828B2946EAC4E1E2B28 /* Pods-PhotoFeeleriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoFeeleriOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoFeeleriOS/Pods-PhotoFeeleriOS.release.xcconfig"; sourceTree = "<group>"; };
+		8DAB25028ED8B926D94D48B8 /* Pods-PhotoFeeleriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoFeeleriOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoFeeleriOS/Pods-PhotoFeeleriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AC55218F302846FF03850361 /* Pods_PhotoFeeleriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoFeeleriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF38E85227BE62D0011B9B8 /* PhotoFeeleriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFeeleriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF38E88227BE62D0011B9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFF38E8A227BE62D0011B9B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFF38E8F227BE6300011B9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF38E92227BE6300011B9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF38E94227BE6300011B9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF38E9D227BEB230011B9B8 /* PhotoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTest.swift; sourceTree = "<group>"; };
+		BFF38E9F227BEB500011B9B8 /* BusinessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTest.swift; sourceTree = "<group>"; };
+		BFF38EA1227BEB5B0011B9B8 /* SocialTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTest.swift; sourceTree = "<group>"; };
+		BFF38EA3227BEB6B0011B9B8 /* DatingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingTest.swift; sourceTree = "<group>"; };
+		BFF38EA5227BEB780011B9B8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		BFF38EA7227BEB820011B9B8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFF38EA9227BEBBB0011B9B8 /* Karma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karma.swift; sourceTree = "<group>"; };
+		BFF38EAB227BEC120011B9B8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BFF38EAD227BEC420011B9B8 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		BFF38EAF227BED3D0011B9B8 /* Quality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quality.swift; sourceTree = "<group>"; };
+		BFF38EB1227BF61B0011B9B8 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		BFF38EB6227CE9F00011B9B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF38E82227BE62D0011B9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA343909E4576B197FA7248 /* Pods_PhotoFeeleriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714D41A54C215E28F6BA1EC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB25028ED8B926D94D48B8 /* Pods-PhotoFeeleriOS.debug.xcconfig */,
+				21F24828B2946EAC4E1E2B28 /* Pods-PhotoFeeleriOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFF38E7C227BE62D0011B9B8 = {
+			isa = PBXGroup;
+			children = (
+				BFF38E87227BE62D0011B9B8 /* PhotoFeeleriOS */,
+				BFF38E86227BE62D0011B9B8 /* Products */,
+				714D41A54C215E28F6BA1EC1 /* Pods */,
+				C3425BDAFEB2AE354519295D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF38E86227BE62D0011B9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF38E85227BE62D0011B9B8 /* PhotoFeeleriOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF38E87227BE62D0011B9B8 /* PhotoFeeleriOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFF38EB4227BFB720011B9B8 /* ViewModels */,
+				BFF38EB3227BFB660011B9B8 /* Views */,
+				BFF38E9C227BEB0B0011B9B8 /* Service */,
+				BFF38E9B227BEAD90011B9B8 /* Models */,
+				BFF38E9A227BEACB0011B9B8 /* Supporting Files */,
+				BFF38EB5227CE9C30011B9B8 /* Controllers */,
+				BFF38E94227BE6300011B9B8 /* Info.plist */,
+			);
+			path = PhotoFeeleriOS;
+			sourceTree = "<group>";
+		};
+		BFF38E9A227BEACB0011B9B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF38E88227BE62D0011B9B8 /* AppDelegate.swift */,
+				BFF38E8F227BE6300011B9B8 /* Assets.xcassets */,
+				BFF38E91227BE6300011B9B8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF38E9B227BEAD90011B9B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFF38E9D227BEB230011B9B8 /* PhotoTest.swift */,
+				BFF38E9F227BEB500011B9B8 /* BusinessTest.swift */,
+				BFF38EA1227BEB5B0011B9B8 /* SocialTest.swift */,
+				BFF38EA3227BEB6B0011B9B8 /* DatingTest.swift */,
+				BFF38EA5227BEB780011B9B8 /* Test.swift */,
+				BFF38EA7227BEB820011B9B8 /* User.swift */,
+				BFF38EA9227BEBBB0011B9B8 /* Karma.swift */,
+				BFF38EAB227BEC120011B9B8 /* Category.swift */,
+				BFF38EAD227BEC420011B9B8 /* Status.swift */,
+				BFF38EAF227BED3D0011B9B8 /* Quality.swift */,
+				BFF38EB1227BF61B0011B9B8 /* Option.swift */,
+			);
+			name = Models;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BFF38E9C227BEB0B0011B9B8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF38EB3227BFB660011B9B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFF38EB4227BFB720011B9B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFF38EB5227CE9C30011B9B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFF38E8A227BE62D0011B9B8 /* HomeViewController.swift */,
+				BFF38EB6227CE9F00011B9B8 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3425BDAFEB2AE354519295D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC55218F302846FF03850361 /* Pods_PhotoFeeleriOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF38E84227BE62D0011B9B8 /* PhotoFeeleriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF38E97227BE6300011B9B8 /* Build configuration list for PBXNativeTarget "PhotoFeeleriOS" */;
+			buildPhases = (
+				8E1863290043434029089D6D /* [CP] Check Pods Manifest.lock */,
+				BFF38E81227BE62D0011B9B8 /* Sources */,
+				BFF38E82227BE62D0011B9B8 /* Frameworks */,
+				BFF38E83227BE62D0011B9B8 /* Resources */,
+				A3620266C8B07EBD7D0790E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoFeeleriOS;
+			productName = PhotoFeeleriOS;
+			productReference = BFF38E85227BE62D0011B9B8 /* PhotoFeeleriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF38E7D227BE62D0011B9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zain Budhwani";
+				TargetAttributes = {
+					BFF38E84227BE62D0011B9B8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BFF38E80227BE62D0011B9B8 /* Build configuration list for PBXProject "PhotoFeeleriOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF38E7C227BE62D0011B9B8;
+			productRefGroup = BFF38E86227BE62D0011B9B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF38E84227BE62D0011B9B8 /* PhotoFeeleriOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF38E83227BE62D0011B9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF38E93227BE6300011B9B8 /* LaunchScreen.storyboard in Resources */,
+				BFF38E90227BE6300011B9B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E1863290043434029089D6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoFeeleriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3620266C8B07EBD7D0790E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoFeeleriOS/Pods-PhotoFeeleriOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoFeeleriOS/Pods-PhotoFeeleriOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF38E81227BE62D0011B9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF38EB7227CE9F00011B9B8 /* LoginViewController.swift in Sources */,
+				BFF38EAA227BEBBB0011B9B8 /* Karma.swift in Sources */,
+				BFF38EB0227BED3D0011B9B8 /* Quality.swift in Sources */,
+				BFF38EAC227BEC120011B9B8 /* Category.swift in Sources */,
+				BFF38EA2227BEB5B0011B9B8 /* SocialTest.swift in Sources */,
+				BFF38E9E227BEB230011B9B8 /* PhotoTest.swift in Sources */,
+				BFF38EAE227BEC420011B9B8 /* Status.swift in Sources */,
+				BFF38EA0227BEB500011B9B8 /* BusinessTest.swift in Sources */,
+				BFF38EB2227BF61B0011B9B8 /* Option.swift in Sources */,
+				BFF38EA6227BEB780011B9B8 /* Test.swift in Sources */,
+				BFF38EA8227BEB820011B9B8 /* User.swift in Sources */,
+				BFF38E8B227BE62D0011B9B8 /* HomeViewController.swift in Sources */,
+				BFF38EA4227BEB6B0011B9B8 /* DatingTest.swift in Sources */,
+				BFF38E89227BE62D0011B9B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFF38E91227BE6300011B9B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF38E92227BE6300011B9B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF38E95227BE6300011B9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF38E96227BE6300011B9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF38E98227BE6300011B9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAB25028ED8B926D94D48B8 /* Pods-PhotoFeeleriOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96UBJQC7TM;
+				INFOPLIST_FILE = PhotoFeeleriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zainbudhwani.PhotoFeeleriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF38E99227BE6300011B9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F24828B2946EAC4E1E2B28 /* Pods-PhotoFeeleriOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96UBJQC7TM;
+				INFOPLIST_FILE = PhotoFeeleriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zainbudhwani.PhotoFeeleriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF38E80227BE62D0011B9B8 /* Build configuration list for PBXProject "PhotoFeeleriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF38E95227BE6300011B9B8 /* Debug */,
+				BFF38E96227BE6300011B9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF38E97227BE6300011B9B8 /* Build configuration list for PBXNativeTarget "PhotoFeeleriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF38E98227BE6300011B9B8 /* Debug */,
+				BFF38E99227BE6300011B9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF38E7D227BE62D0011B9B8 /* Project object */;
+}
